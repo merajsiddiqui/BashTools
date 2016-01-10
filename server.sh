@@ -24,5 +24,15 @@
 
 function InstallApache2(){
 	#Update Your Repository First
-	sudo apt-get update
+	apt-get update
+	apt-get install apache2
+
 }
+
+
+function MakeVirtualServer(){
+	#first we need to make a configuration file in /etc/apache2/sites-availablle/xyz.io.conf
+	#
+
+}
+

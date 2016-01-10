@@ -24,5 +24,6 @@
 
 function InstallMySQL(){
 	#Update Your Repository First
-	apt-get install
+	apt-get install mysql-server
+
 }
